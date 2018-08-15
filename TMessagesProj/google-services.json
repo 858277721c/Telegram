@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "296584248789",
+    "firebase_url": "https://api-project-296584248789.firebaseio.com",
+    "project_id": "api-project-296584248789",
+    "storage_bucket": "api-project-296584248789.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296584248789:android:33447f1d6b0e8e01",
+        "android_client_info": {
+          "package_name": "com.biying.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296584248789-45tqpe7dr0iail7gt9it0ifrirsjp0ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALDe6zleHsBqz97tnAR7mpKYwM94206qk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

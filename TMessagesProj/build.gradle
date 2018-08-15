@@ -26,6 +26,7 @@ dependencies {
     compile 'net.hockeyapp.android:HockeySDK:5.1.0'
     compile 'com.googlecode.mp4parser:isoparser:1.0.6'
     compile 'com.stripe:stripe-android:2.0.2'
+    compile 'com.google.firebase:firebase-core:16.0.0'
 }
 
 android {
@@ -77,7 +78,7 @@ android {
             debuggable true
             jniDebuggable true
             signingConfig signingConfigs.debug
-            applicationIdSuffix ".beta"
+//            applicationIdSuffix ".beta"
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -208,6 +209,8 @@ android {
             }
         }
         afat {
+            applicationId "com.biying.app"
+
             sourceSets.debug {
                 manifest.srcFile 'config/debug/AndroidManifest_SDK23.xml'
             }
@@ -237,7 +240,7 @@ android {
         targetSdkVersion 27
         versionName "4.9.0"
 
-		vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
+        vectorDrawables.generatedDensities = ['mdpi', 'hdpi', 'xhdpi', 'xxhdpi']
 
         externalNativeBuild {
             ndkBuild {
